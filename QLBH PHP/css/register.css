@@ -1,0 +1,90 @@
+#bg{
+     margin-top: 20px;
+      margin-bottom: 20px;
+  position:relative;
+   
+  margin-left:auto;
+  margin-right:auto; 
+ 
+}
+.captcha-output{
+    color:red;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 0%;
+    text-align: center;
+    font-size: 13px;
+    
+}
+.module{
+  position:relative;
+  top:5%;    
+  height:1090px;
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:5px;
+  background:RGBA(255,255,255,1);
+    
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  
+}
+.module ul{
+  list-style-type:none;
+  margin:0;
+}
+.tab{
+  height:60px;
+  width:100%;
+  padding-top:20px;
+  box-sizing:border-box;
+  background-color:rgba(0,0,0,.1);
+  text-align:center;
+  cursor:pointer;
+  transition:background .4s;
+}
+.icon{
+  height:24px;
+  width:24px;
+}
+.form{
+  float:left;
+  height:86%;
+  width:100%;
+  box-sizing:border-box;
+  padding:40px;
+}
+.textbox{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+}
+.textbox:focus{
+  outline:none;
+   border: #94cb32 2px solid;
+   color:#94cb32;
+}
+.button{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+  background:#90c843;
+  color:#FFF;
+  font-weight:bold;
+  font-size: 12pt;
+  transition:background .4s;
+  cursor:pointer;
+  font-family: 'Varela Round', sans-serif;
+}
+.button:hover{
+  background:#80b438;
+  
+}

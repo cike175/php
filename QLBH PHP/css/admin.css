@@ -1,0 +1,99 @@
+/* CSS Document */
+.content-dash{
+	float:left;
+	width: 80%;
+	padding-top:20px;
+	padding-left:20px;
+}
+.form{
+	 box-sizing:border-box;
+	padding: 10px;
+	display: block;
+}
+.main-dash{
+	font-family: 'Varela Round', sans-serif;
+}
+.main-dash:before, .main-dash:after{
+	box-sizing: border-box;	
+}
+.menu-dash{
+    
+	background: #373737;
+	float:left;
+        border-top: 2px solid #94bc32;
+	border-bottom: 2px solid #94bc32;
+	border-right: 2px solid #94bc32;
+}
+div.menu-dash ul li:hover ul {
+	position: relative;
+	display: block;
+}
+
+.tab2{
+	color:#DBDBDB;
+        padding-top: 30px;
+        width: 100%;
+}
+.tab2:hover{
+        color: #fff;
+	cursor: pointer;
+}
+.active{
+	display: block;
+}
+.tab{
+    width: 200px;
+    
+	color: #DBDBDB;
+	padding-bottom: 20px;
+        padding-top: 20px;
+        
+}
+.tab:hover{
+	cursor: pointer;
+        color:#fff;
+}
+.btn {
+	border: 0;
+  color: #ffffff;
+  padding: 5px;
+  background: #b6b8b6;
+  text-decoration: none;
+}
+.btn2 {
+	border: 0;
+	font-size: 120%;
+  color: #ffffff;
+  padding: 5px;
+ background: #575757;
+  text-decoration: none;
+}
+.btn2:hover{
+  background: #b6b8b6;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #575757;
+  text-decoration: none;
+}
+.text{
+	margin-right:100%; 
+	display: inline;
+	height:25px;
+  width:200px;
+  border-radius:1px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  margin-bottom:10px;
+}
+.text:focus{
+  outline:none;
+   border: 2px solid #94cb32;
+   color:#94cb32;
+}
+.label{
+	color:#575757;
+}
+.uneditable{
+	background: #E1E1E1;
+}
